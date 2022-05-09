@@ -14,6 +14,12 @@
 	<test name="General Test">
 		<classes>
 			<class name="com.simplilearn.webapptest.TestNGStandardAnnotationTest"></class>
+			<class name="com.simplilearn.webapptest.TestNgAssertionDemo"></class>
+		</classes>
+	</test>
+	<test name="Group Test">
+		<classes>
+			<class name="com.simplilearn.webapptest.group.BrowserBasedGroupTest"></class>
 		</classes>
 	</test>
 </suite>

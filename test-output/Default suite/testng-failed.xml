@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.simplilearn.webapptest.amazon.AmazonHomepageTest">
+      <class name="com.simplilearn.webapptest.TestNgAssertionDemo">
         <methods>
-          <include name="afterMethod"/>
-          <include name="beforeMethod"/>
-          <include name="testAmazonSearchProductTest2"/>
+          <include name="hardAssertionTest"/>
         </methods>
-      </class> <!-- com.simplilearn.webapptest.amazon.AmazonHomepageTest -->
+      </class> <!-- com.simplilearn.webapptest.TestNgAssertionDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,92 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="12" passed="11">
+<testng-results skipped="0" failed="1" ignored="0" total="24" passed="23">
   <reporter-output>
   </reporter-output>
-  <suite name="eCommerce Webapp Test Suite" duration-ms="46967" started-at="2022-05-09T11:01:11 UTC" finished-at="2022-05-09T11:01:58 UTC">
+  <suite name="eCommerce Webapp Test Suite" duration-ms="64917" started-at="2022-05-09T12:14:24 UTC" finished-at="2022-05-09T12:15:29 UTC">
     <groups>
+      <group name="ChromeOnly">
+        <method signature="BrowserBasedGroupTest.launchChromeTest()[pri:0, instance:com.simplilearn.webapptest.group.BrowserBasedGroupTest@7e9a5fbe]" name="launchChromeTest" class="com.simplilearn.webapptest.group.BrowserBasedGroupTest"/>
+        <method signature="BrowserBasedGroupTest.testAmazonHomePageTitle()[pri:1, instance:com.simplilearn.webapptest.group.BrowserBasedGroupTest@7e9a5fbe]" name="testAmazonHomePageTitle" class="com.simplilearn.webapptest.group.BrowserBasedGroupTest"/>
+        <method signature="BrowserBasedGroupTest.testAmazonHomeSourceUrl()[pri:2, instance:com.simplilearn.webapptest.group.BrowserBasedGroupTest@7e9a5fbe]" name="testAmazonHomeSourceUrl" class="com.simplilearn.webapptest.group.BrowserBasedGroupTest"/>
+        <method signature="BrowserBasedGroupTest.testAmazonSearchProductTest()[pri:3, instance:com.simplilearn.webapptest.group.BrowserBasedGroupTest@7e9a5fbe]" name="testAmazonSearchProductTest" class="com.simplilearn.webapptest.group.BrowserBasedGroupTest"/>
+        <method signature="BrowserBasedGroupTest.afterMethod()[pri:4, instance:com.simplilearn.webapptest.group.BrowserBasedGroupTest@7e9a5fbe]" name="afterMethod" class="com.simplilearn.webapptest.group.BrowserBasedGroupTest"/>
+      </group> <!-- ChromeOnly -->
+      <group name="FirefoxOnly">
+        <method signature="BrowserBasedGroupTest.launchFireFoxTest()[pri:0, instance:com.simplilearn.webapptest.group.BrowserBasedGroupTest@7e9a5fbe]" name="launchFireFoxTest" class="com.simplilearn.webapptest.group.BrowserBasedGroupTest"/>
+        <method signature="BrowserBasedGroupTest.testFaceBookHomePage()[pri:1, instance:com.simplilearn.webapptest.group.BrowserBasedGroupTest@7e9a5fbe]" name="testFaceBookHomePage" class="com.simplilearn.webapptest.group.BrowserBasedGroupTest"/>
+        <method signature="BrowserBasedGroupTest.testFieldsLogin()[pri:2, instance:com.simplilearn.webapptest.group.BrowserBasedGroupTest@7e9a5fbe]" name="testFieldsLogin" class="com.simplilearn.webapptest.group.BrowserBasedGroupTest"/>
+        <method signature="BrowserBasedGroupTest.testFailureLogin()[pri:3, instance:com.simplilearn.webapptest.group.BrowserBasedGroupTest@7e9a5fbe]" name="testFailureLogin" class="com.simplilearn.webapptest.group.BrowserBasedGroupTest"/>
+      </group> <!-- FirefoxOnly -->
     </groups>
-    <test name="Amazon Test" duration-ms="30675" started-at="2022-05-09T11:01:11 UTC" finished-at="2022-05-09T11:01:41 UTC">
+    <test name="Amazon Test" duration-ms="35709" started-at="2022-05-09T12:14:24 UTC" finished-at="2022-05-09T12:15:00 UTC">
       <class name="com.simplilearn.webapptest.amazon.AmazonNavLinkTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonNavLinkTest@6ec8211c]" name="beforeMethod" is-config="true" duration-ms="2289" started-at="2022-05-09T11:01:28 UTC" finished-at="2022-05-09T11:01:30 UTC">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonNavLinkTest@6ec8211c]" name="beforeMethod" is-config="true" duration-ms="2569" started-at="2022-05-09T12:14:44 UTC" finished-at="2022-05-09T12:14:47 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testBestSellerNavLink()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonNavLinkTest@6ec8211c]" name="testBestSellerNavLink" duration-ms="2144" started-at="2022-05-09T11:01:30 UTC" finished-at="2022-05-09T11:01:32 UTC">
+        <test-method status="PASS" signature="testBestSellerNavLink()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonNavLinkTest@6ec8211c]" name="testBestSellerNavLink" duration-ms="2837" started-at="2022-05-09T12:14:47 UTC" finished-at="2022-05-09T12:14:49 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBestSellerNavLink -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonNavLinkTest@6ec8211c]" name="afterMethod" is-config="true" duration-ms="214" started-at="2022-05-09T11:01:32 UTC" finished-at="2022-05-09T11:01:32 UTC">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonNavLinkTest@6ec8211c]" name="afterMethod" is-config="true" duration-ms="143" started-at="2022-05-09T12:14:49 UTC" finished-at="2022-05-09T12:14:50 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonNavLinkTest@6ec8211c]" name="beforeMethod" is-config="true" duration-ms="2211" started-at="2022-05-09T11:01:32 UTC" finished-at="2022-05-09T11:01:34 UTC">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonNavLinkTest@6ec8211c]" name="beforeMethod" is-config="true" duration-ms="3183" started-at="2022-05-09T12:14:50 UTC" finished-at="2022-05-09T12:14:53 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testBestSellerNavLink2()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonNavLinkTest@6ec8211c]" name="testBestSellerNavLink2" duration-ms="1926" started-at="2022-05-09T11:01:34 UTC" finished-at="2022-05-09T11:01:36 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testBestSellerNavLink2 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonNavLinkTest@6ec8211c]" name="afterMethod" is-config="true" duration-ms="144" started-at="2022-05-09T11:01:36 UTC" finished-at="2022-05-09T11:01:37 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonNavLinkTest@6ec8211c]" name="beforeMethod" is-config="true" duration-ms="2766" started-at="2022-05-09T11:01:37 UTC" finished-at="2022-05-09T11:01:39 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testTodaysDealNavLink3()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonNavLinkTest@6ec8211c]" name="testTodaysDealNavLink3" duration-ms="1764" started-at="2022-05-09T11:01:39 UTC" finished-at="2022-05-09T11:01:41 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTodaysDealNavLink3 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonNavLinkTest@6ec8211c]" name="afterMethod" is-config="true" duration-ms="174" started-at="2022-05-09T11:01:41 UTC" finished-at="2022-05-09T11:01:41 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- com.simplilearn.webapptest.amazon.AmazonNavLinkTest -->
-      <class name="com.simplilearn.webapptest.amazon.AmazonHomepageTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonHomepageTest@8646db9]" name="beforeMethod" is-config="true" duration-ms="3197" started-at="2022-05-09T11:01:11 UTC" finished-at="2022-05-09T11:01:14 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testAmazonHomePageTitle()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonHomepageTest@8646db9]" name="testAmazonHomePageTitle" duration-ms="51" started-at="2022-05-09T11:01:14 UTC" finished-at="2022-05-09T11:01:14 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAmazonHomePageTitle -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonHomepageTest@8646db9]" name="afterMethod" is-config="true" duration-ms="172" started-at="2022-05-09T11:01:14 UTC" finished-at="2022-05-09T11:01:14 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonHomepageTest@8646db9]" name="beforeMethod" is-config="true" duration-ms="2611" started-at="2022-05-09T11:01:14 UTC" finished-at="2022-05-09T11:01:17 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testAmazonHomeSourceUrl()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonHomepageTest@8646db9]" name="testAmazonHomeSourceUrl" duration-ms="429" started-at="2022-05-09T11:01:17 UTC" finished-at="2022-05-09T11:01:17 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAmazonHomeSourceUrl -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonHomepageTest@8646db9]" name="afterMethod" is-config="true" duration-ms="242" started-at="2022-05-09T11:01:17 UTC" finished-at="2022-05-09T11:01:17 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonHomepageTest@8646db9]" name="beforeMethod" is-config="true" duration-ms="3487" started-at="2022-05-09T11:01:17 UTC" finished-at="2022-05-09T11:01:21 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="testAmazonSearchProductTest()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonHomepageTest@8646db9]" name="testAmazonSearchProductTest" duration-ms="1293" started-at="2022-05-09T11:01:21 UTC" finished-at="2022-05-09T11:01:22 UTC">
+        <test-method status="FAIL" signature="testBestSellerNavLink2()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonNavLinkTest@6ec8211c]" name="testBestSellerNavLink2" duration-ms="1197" started-at="2022-05-09T12:14:53 UTC" finished-at="2022-05-09T12:14:54 UTC">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [] but found [Amazon.in : Iphone 12 max pro]]]>
+              <![CDATA[expected [] but found [Help - Amazon Customer Service]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [] but found [Amazon.in : Iphone 12 max pro]
+              <![CDATA[java.lang.AssertionError: expected [] but found [Help - Amazon Customer Service]
 at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
 at org.testng.Assert.assertEquals(Assert.java:665)
-at com.simplilearn.webapptest.amazon.AmazonHomepageTest.testAmazonSearchProductTest(AmazonHomepageTest.java:54)
+at com.simplilearn.webapptest.amazon.AmazonNavLinkTest.testBestSellerNavLink2(AmazonNavLinkTest.java:49)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -120,108 +83,214 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAmazonSearchProductTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonHomepageTest@8646db9]" name="afterMethod" is-config="true" duration-ms="123" started-at="2022-05-09T11:01:22 UTC" finished-at="2022-05-09T11:01:22 UTC">
+        </test-method> <!-- testBestSellerNavLink2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonNavLinkTest@6ec8211c]" name="afterMethod" is-config="true" duration-ms="137" started-at="2022-05-09T12:14:54 UTC" finished-at="2022-05-09T12:14:54 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonHomepageTest@8646db9]" name="beforeMethod" is-config="true" duration-ms="2845" started-at="2022-05-09T11:01:22 UTC" finished-at="2022-05-09T11:01:25 UTC">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonNavLinkTest@6ec8211c]" name="beforeMethod" is-config="true" duration-ms="2458" started-at="2022-05-09T12:14:54 UTC" finished-at="2022-05-09T12:14:57 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testAmazonSearchProductTest2()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonHomepageTest@8646db9]" name="testAmazonSearchProductTest2" duration-ms="2408" started-at="2022-05-09T11:01:25 UTC" finished-at="2022-05-09T11:01:27 UTC">
+        <test-method status="PASS" signature="testTodaysDealNavLink3()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonNavLinkTest@6ec8211c]" name="testTodaysDealNavLink3" duration-ms="2773" started-at="2022-05-09T12:14:57 UTC" finished-at="2022-05-09T12:14:59 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTodaysDealNavLink3 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonNavLinkTest@6ec8211c]" name="afterMethod" is-config="true" duration-ms="231" started-at="2022-05-09T12:14:59 UTC" finished-at="2022-05-09T12:15:00 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.simplilearn.webapptest.amazon.AmazonNavLinkTest -->
+      <class name="com.simplilearn.webapptest.amazon.AmazonHomepageTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonHomepageTest@8646db9]" name="beforeMethod" is-config="true" duration-ms="3212" started-at="2022-05-09T12:14:24 UTC" finished-at="2022-05-09T12:14:27 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testAmazonHomePageTitle()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonHomepageTest@8646db9]" name="testAmazonHomePageTitle" duration-ms="338" started-at="2022-05-09T12:14:27 UTC" finished-at="2022-05-09T12:14:27 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAmazonHomePageTitle -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonHomepageTest@8646db9]" name="afterMethod" is-config="true" duration-ms="219" started-at="2022-05-09T12:14:28 UTC" finished-at="2022-05-09T12:14:28 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonHomepageTest@8646db9]" name="beforeMethod" is-config="true" duration-ms="2558" started-at="2022-05-09T12:14:28 UTC" finished-at="2022-05-09T12:14:30 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testAmazonHomeSourceUrl()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonHomepageTest@8646db9]" name="testAmazonHomeSourceUrl" duration-ms="745" started-at="2022-05-09T12:14:30 UTC" finished-at="2022-05-09T12:14:31 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAmazonHomeSourceUrl -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonHomepageTest@8646db9]" name="afterMethod" is-config="true" duration-ms="348" started-at="2022-05-09T12:14:31 UTC" finished-at="2022-05-09T12:14:31 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonHomepageTest@8646db9]" name="beforeMethod" is-config="true" duration-ms="2654" started-at="2022-05-09T12:14:31 UTC" finished-at="2022-05-09T12:14:34 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testAmazonSearchProductTest()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonHomepageTest@8646db9]" name="testAmazonSearchProductTest" duration-ms="3471" started-at="2022-05-09T12:14:34 UTC" finished-at="2022-05-09T12:14:37 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAmazonSearchProductTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonHomepageTest@8646db9]" name="afterMethod" is-config="true" duration-ms="113" started-at="2022-05-09T12:14:38 UTC" finished-at="2022-05-09T12:14:38 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonHomepageTest@8646db9]" name="beforeMethod" is-config="true" duration-ms="2399" started-at="2022-05-09T12:14:38 UTC" finished-at="2022-05-09T12:14:40 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testAmazonSearchProductTest2()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonHomepageTest@8646db9]" name="testAmazonSearchProductTest2" duration-ms="3867" started-at="2022-05-09T12:14:40 UTC" finished-at="2022-05-09T12:14:44 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAmazonSearchProductTest2 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonHomepageTest@8646db9]" name="afterMethod" is-config="true" duration-ms="128" started-at="2022-05-09T11:01:27 UTC" finished-at="2022-05-09T11:01:28 UTC">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.simplilearn.webapptest.amazon.AmazonHomepageTest@8646db9]" name="afterMethod" is-config="true" duration-ms="170" started-at="2022-05-09T12:14:44 UTC" finished-at="2022-05-09T12:14:44 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.simplilearn.webapptest.amazon.AmazonHomepageTest -->
     </test> <!-- Amazon Test -->
-    <test name="Facebook Test" duration-ms="16235" started-at="2022-05-09T11:01:41 UTC" finished-at="2022-05-09T11:01:58 UTC">
+    <test name="Facebook Test" duration-ms="15581" started-at="2022-05-09T12:15:00 UTC" finished-at="2022-05-09T12:15:15 UTC">
       <class name="com.simplilearn.webapptest.facebook.FacebookLoginTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.simplilearn.webapptest.facebook.FacebookLoginTest@2fd66ad3]" name="beforeMethod" is-config="true" duration-ms="1602" started-at="2022-05-09T11:01:41 UTC" finished-at="2022-05-09T11:01:43 UTC">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.simplilearn.webapptest.facebook.FacebookLoginTest@2fd66ad3]" name="beforeMethod" is-config="true" duration-ms="1702" started-at="2022-05-09T12:15:00 UTC" finished-at="2022-05-09T12:15:01 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testFailureLogin()[pri:0, instance:com.simplilearn.webapptest.facebook.FacebookLoginTest@2fd66ad3]" name="testFailureLogin" duration-ms="12461" started-at="2022-05-09T11:01:43 UTC" finished-at="2022-05-09T11:01:55 UTC">
+        <test-method status="PASS" signature="testFailureLogin()[pri:0, instance:com.simplilearn.webapptest.facebook.FacebookLoginTest@2fd66ad3]" name="testFailureLogin" duration-ms="11563" started-at="2022-05-09T12:15:01 UTC" finished-at="2022-05-09T12:15:13 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFailureLogin -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.simplilearn.webapptest.facebook.FacebookLoginTest@2fd66ad3]" name="afterMethod" is-config="true" duration-ms="113" started-at="2022-05-09T11:01:55 UTC" finished-at="2022-05-09T11:01:55 UTC">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.simplilearn.webapptest.facebook.FacebookLoginTest@2fd66ad3]" name="afterMethod" is-config="true" duration-ms="122" started-at="2022-05-09T12:15:13 UTC" finished-at="2022-05-09T12:15:13 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.simplilearn.webapptest.facebook.FacebookLoginTest@2fd66ad3]" name="beforeMethod" is-config="true" duration-ms="1744" started-at="2022-05-09T11:01:55 UTC" finished-at="2022-05-09T11:01:57 UTC">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.simplilearn.webapptest.facebook.FacebookLoginTest@2fd66ad3]" name="beforeMethod" is-config="true" duration-ms="1902" started-at="2022-05-09T12:15:13 UTC" finished-at="2022-05-09T12:15:15 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testFieldsLogin()[pri:0, instance:com.simplilearn.webapptest.facebook.FacebookLoginTest@2fd66ad3]" name="testFieldsLogin" duration-ms="158" started-at="2022-05-09T11:01:57 UTC" finished-at="2022-05-09T11:01:57 UTC">
+        <test-method status="PASS" signature="testFieldsLogin()[pri:0, instance:com.simplilearn.webapptest.facebook.FacebookLoginTest@2fd66ad3]" name="testFieldsLogin" duration-ms="169" started-at="2022-05-09T12:15:15 UTC" finished-at="2022-05-09T12:15:15 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFieldsLogin -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.simplilearn.webapptest.facebook.FacebookLoginTest@2fd66ad3]" name="afterMethod" is-config="true" duration-ms="152" started-at="2022-05-09T11:01:57 UTC" finished-at="2022-05-09T11:01:58 UTC">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.simplilearn.webapptest.facebook.FacebookLoginTest@2fd66ad3]" name="afterMethod" is-config="true" duration-ms="117" started-at="2022-05-09T12:15:15 UTC" finished-at="2022-05-09T12:15:15 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.simplilearn.webapptest.facebook.FacebookLoginTest -->
     </test> <!-- Facebook Test -->
-    <test name="General Test" duration-ms="14" started-at="2022-05-09T11:01:58 UTC" finished-at="2022-05-09T11:01:58 UTC">
+    <test name="General Test" duration-ms="30" started-at="2022-05-09T12:15:15 UTC" finished-at="2022-05-09T12:15:15 UTC">
       <class name="com.simplilearn.webapptest.TestNGStandardAnnotationTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.simplilearn.webapptest.TestNGStandardAnnotationTest@35a50a4c]" name="beforeSuite" is-config="true" duration-ms="7" started-at="2022-05-09T11:01:11 UTC" finished-at="2022-05-09T11:01:11 UTC">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.simplilearn.webapptest.TestNGStandardAnnotationTest@1f021e6c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-05-09T12:15:15 UTC" finished-at="2022-05-09T12:15:15 UTC">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.simplilearn.webapptest.TestNGStandardAnnotationTest@35a50a4c]" name="beforeClass" is-config="true" duration-ms="5" started-at="2022-05-09T11:01:58 UTC" finished-at="2022-05-09T11:01:58 UTC">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.simplilearn.webapptest.TestNGStandardAnnotationTest@1f021e6c]" name="beforeClass" is-config="true" duration-ms="0" started-at="2022-05-09T12:15:15 UTC" finished-at="2022-05-09T12:15:15 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.simplilearn.webapptest.TestNGStandardAnnotationTest@35a50a4c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-05-09T11:01:58 UTC" finished-at="2022-05-09T11:01:58 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testOne()[pri:0, instance:com.simplilearn.webapptest.TestNGStandardAnnotationTest@35a50a4c]" name="testOne" duration-ms="0" started-at="2022-05-09T11:01:58 UTC" finished-at="2022-05-09T11:01:58 UTC">
+        <test-method status="PASS" signature="testOne()[pri:0, instance:com.simplilearn.webapptest.TestNGStandardAnnotationTest@1f021e6c]" name="testOne" duration-ms="0" started-at="2022-05-09T12:15:15 UTC" finished-at="2022-05-09T12:15:15 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOne -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.simplilearn.webapptest.TestNGStandardAnnotationTest@35a50a4c]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-05-09T11:01:58 UTC" finished-at="2022-05-09T11:01:58 UTC">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.simplilearn.webapptest.TestNGStandardAnnotationTest@1f021e6c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-05-09T12:15:15 UTC" finished-at="2022-05-09T12:15:15 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.simplilearn.webapptest.TestNGStandardAnnotationTest@35a50a4c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-05-09T11:01:58 UTC" finished-at="2022-05-09T11:01:58 UTC">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.simplilearn.webapptest.TestNGStandardAnnotationTest@1f021e6c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-05-09T12:15:15 UTC" finished-at="2022-05-09T12:15:15 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testThree()[pri:0, instance:com.simplilearn.webapptest.TestNGStandardAnnotationTest@35a50a4c]" name="testThree" duration-ms="1" started-at="2022-05-09T11:01:58 UTC" finished-at="2022-05-09T11:01:58 UTC">
+        <test-method status="PASS" signature="testThree()[pri:0, instance:com.simplilearn.webapptest.TestNGStandardAnnotationTest@1f021e6c]" name="testThree" duration-ms="0" started-at="2022-05-09T12:15:15 UTC" finished-at="2022-05-09T12:15:15 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testThree -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.simplilearn.webapptest.TestNGStandardAnnotationTest@35a50a4c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-05-09T11:01:58 UTC" finished-at="2022-05-09T11:01:58 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.simplilearn.webapptest.TestNGStandardAnnotationTest@35a50a4c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-05-09T11:01:58 UTC" finished-at="2022-05-09T11:01:58 UTC">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.simplilearn.webapptest.TestNGStandardAnnotationTest@1f021e6c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-05-09T12:15:15 UTC" finished-at="2022-05-09T12:15:15 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testTwo()[pri:0, instance:com.simplilearn.webapptest.TestNGStandardAnnotationTest@35a50a4c]" name="testTwo" duration-ms="1" started-at="2022-05-09T11:01:58 UTC" finished-at="2022-05-09T11:01:58 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTwo -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.simplilearn.webapptest.TestNGStandardAnnotationTest@35a50a4c]" name="afterClass" is-config="true" duration-ms="1" started-at="2022-05-09T11:01:58 UTC" finished-at="2022-05-09T11:01:58 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.simplilearn.webapptest.TestNGStandardAnnotationTest@35a50a4c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-05-09T11:01:58 UTC" finished-at="2022-05-09T11:01:58 UTC">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.simplilearn.webapptest.TestNGStandardAnnotationTest@1f021e6c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-05-09T12:15:15 UTC" finished-at="2022-05-09T12:15:15 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.simplilearn.webapptest.TestNGStandardAnnotationTest@35a50a4c]" name="afterSuite" is-config="true" duration-ms="0" started-at="2022-05-09T11:01:58 UTC" finished-at="2022-05-09T11:01:58 UTC">
+        <test-method status="PASS" signature="testTwo()[pri:0, instance:com.simplilearn.webapptest.TestNGStandardAnnotationTest@1f021e6c]" name="testTwo" duration-ms="0" started-at="2022-05-09T12:15:15 UTC" finished-at="2022-05-09T12:15:15 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.simplilearn.webapptest.TestNGStandardAnnotationTest@1f021e6c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-05-09T12:15:15 UTC" finished-at="2022-05-09T12:15:15 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.simplilearn.webapptest.TestNGStandardAnnotationTest@1f021e6c]" name="afterClass" is-config="true" duration-ms="0" started-at="2022-05-09T12:15:15 UTC" finished-at="2022-05-09T12:15:15 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.simplilearn.webapptest.TestNGStandardAnnotationTest -->
+      <class name="com.simplilearn.webapptest.TestNgAssertionDemo">
+        <test-method status="PASS" signature="hardAssertionTest()[pri:0, instance:com.simplilearn.webapptest.TestNgAssertionDemo@103f852]" name="hardAssertionTest" duration-ms="1" started-at="2022-05-09T12:15:15 UTC" description="Hard Assert method Test" finished-at="2022-05-09T12:15:15 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hardAssertionTest -->
+        <test-method status="PASS" signature="softAssertTest()[pri:0, instance:com.simplilearn.webapptest.TestNgAssertionDemo@103f852]" name="softAssertTest" duration-ms="9" started-at="2022-05-09T12:15:15 UTC" description="Soft Assert method Test" finished-at="2022-05-09T12:15:15 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- softAssertTest -->
+      </class> <!-- com.simplilearn.webapptest.TestNgAssertionDemo -->
+    </test> <!-- General Test -->
+    <test name="Group Test" duration-ms="13553" started-at="2022-05-09T12:15:15 UTC" finished-at="2022-05-09T12:15:29 UTC">
+      <class name="com.simplilearn.webapptest.group.BrowserBasedGroupTest">
+        <test-method status="PASS" signature="launchChromeTest()[pri:0, instance:com.simplilearn.webapptest.group.BrowserBasedGroupTest@7e9a5fbe]" name="launchChromeTest" duration-ms="2415" started-at="2022-05-09T12:15:15 UTC" finished-at="2022-05-09T12:15:18 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchChromeTest -->
+        <test-method status="PASS" signature="launchFireFoxTest()[pri:0, instance:com.simplilearn.webapptest.group.BrowserBasedGroupTest@7e9a5fbe]" name="launchFireFoxTest" duration-ms="4778" started-at="2022-05-09T12:15:18 UTC" finished-at="2022-05-09T12:15:22 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchFireFoxTest -->
+        <test-method status="PASS" signature="testAmazonHomePageTitle()[pri:1, instance:com.simplilearn.webapptest.group.BrowserBasedGroupTest@7e9a5fbe]" name="testAmazonHomePageTitle" duration-ms="28" started-at="2022-05-09T12:15:22 UTC" depends-on-methods="com.simplilearn.webapptest.group.BrowserBasedGroupTest.launchChromeTest" finished-at="2022-05-09T12:15:23 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAmazonHomePageTitle -->
+        <test-method status="PASS" signature="testFaceBookHomePage()[pri:1, instance:com.simplilearn.webapptest.group.BrowserBasedGroupTest@7e9a5fbe]" name="testFaceBookHomePage" duration-ms="30" started-at="2022-05-09T12:15:23 UTC" depends-on-methods="com.simplilearn.webapptest.group.BrowserBasedGroupTest.launchFireFoxTest" finished-at="2022-05-09T12:15:23 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFaceBookHomePage -->
+        <test-method status="PASS" signature="testAmazonHomeSourceUrl()[pri:2, instance:com.simplilearn.webapptest.group.BrowserBasedGroupTest@7e9a5fbe]" name="testAmazonHomeSourceUrl" duration-ms="18" started-at="2022-05-09T12:15:23 UTC" depends-on-methods="com.simplilearn.webapptest.group.BrowserBasedGroupTest.launchChromeTest" finished-at="2022-05-09T12:15:23 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAmazonHomeSourceUrl -->
+        <test-method status="PASS" signature="testFieldsLogin()[pri:2, instance:com.simplilearn.webapptest.group.BrowserBasedGroupTest@7e9a5fbe]" name="testFieldsLogin" duration-ms="199" started-at="2022-05-09T12:15:23 UTC" depends-on-methods="com.simplilearn.webapptest.group.BrowserBasedGroupTest.launchFireFoxTest" finished-at="2022-05-09T12:15:23 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFieldsLogin -->
+        <test-method status="PASS" signature="testAmazonSearchProductTest()[pri:3, instance:com.simplilearn.webapptest.group.BrowserBasedGroupTest@7e9a5fbe]" name="testAmazonSearchProductTest" duration-ms="2764" started-at="2022-05-09T12:15:23 UTC" depends-on-methods="com.simplilearn.webapptest.group.BrowserBasedGroupTest.launchChromeTest" finished-at="2022-05-09T12:15:26 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAmazonSearchProductTest -->
+        <test-method status="PASS" signature="testFailureLogin()[pri:3, instance:com.simplilearn.webapptest.group.BrowserBasedGroupTest@7e9a5fbe]" name="testFailureLogin" duration-ms="178" started-at="2022-05-09T12:15:26 UTC" depends-on-methods="com.simplilearn.webapptest.group.BrowserBasedGroupTest.launchFireFoxTest" finished-at="2022-05-09T12:15:26 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFailureLogin -->
+        <test-method status="PASS" signature="closeFireFox()[pri:0, instance:com.simplilearn.webapptest.group.BrowserBasedGroupTest@7e9a5fbe]" name="closeFireFox" duration-ms="2916" depends-on-groups="FirefoxOnly" started-at="2022-05-09T12:15:26 UTC" finished-at="2022-05-09T12:15:29 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeFireFox -->
+        <test-method status="PASS" signature="afterMethod()[pri:4, instance:com.simplilearn.webapptest.group.BrowserBasedGroupTest@7e9a5fbe]" name="afterMethod" duration-ms="149" started-at="2022-05-09T12:15:29 UTC" depends-on-methods="com.simplilearn.webapptest.group.BrowserBasedGroupTest.launchChromeTest" finished-at="2022-05-09T12:15:29 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.simplilearn.webapptest.group.BrowserBasedGroupTest -->
+      <class name="com.simplilearn.webapptest.TestNGStandardAnnotationTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.simplilearn.webapptest.TestNGStandardAnnotationTest@1f021e6c]" name="beforeSuite" is-config="true" duration-ms="13" started-at="2022-05-09T12:14:24 UTC" finished-at="2022-05-09T12:14:24 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.simplilearn.webapptest.TestNGStandardAnnotationTest@1f021e6c]" name="afterSuite" is-config="true" duration-ms="0" started-at="2022-05-09T12:15:29 UTC" finished-at="2022-05-09T12:15:29 UTC">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.simplilearn.webapptest.TestNGStandardAnnotationTest -->
-    </test> <!-- General Test -->
+    </test> <!-- Group Test -->
   </suite> <!-- eCommerce Webapp Test Suite -->
 </testng-results>
