@@ -8,6 +8,12 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>phase5-selenium-testng-05-09-2022 Maven Webapp</name>
 	<url>http://maven.apache.org</url>
+	
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	
+	
 	<dependencies>
 		<!-- Add selenium java -->
 		<dependency>
